@@ -1,0 +1,213 @@
+html,
+
+.homeContainer{
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: black;
+    background-position: center;		/*Header CSS colour background, text alignment etc*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+}
+
+.homeContainer .jumbotron {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: white;
+    background-image: url(../img/bg.jpg);	/* Hero/Jumbotron CSS, set image as background, background-color etc */
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	padding-top:50px;				/*position navbar*/
+	margin-bottom:0px;
+}
+
+.homeContainer .jumbotron .btn {
+	
+	font-size: 20px;				/*Override Bootstraps button CSS with custom font size and colour*/
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.homeContainer .jumbotron .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.navbar {
+	margin-top:0px;				/*position navbar*/
+	margin-bottom:0px;
+}
+
+.panel .panel-heading {
+	text-align: center;
+	background-color: grey;
+	font-size:25px;
+	color: white;
+	
+}
+.panel-body {
+	
+	color: white;				/*Override Bootstraps Panel CSS with custom background-color, font-size*/
+	font-size: 15px;
+	background: black;
+	
+}
+
+.panel-body .leftColumn {
+	
+	width: 40%;
+  float: left;
+  font-size: 16px;
+}
+								/*Float columns right and left inside Panel*/
+.panel-body .rightColumn {
+	
+	font-size: 16px;
+}
+
+.panel-heading {
+	height: 40px;
+}
+.aboutMe .jumbotron {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    color: #fff;
+    background-image: url(../img/aboutMyself.jpg);	/* Hero/Jumbotron CSS, set image as background, background-color etc */
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+	margin-top:0px;				/*position navbar*/
+	margin-bottom:0px;
+}
+
+.aboutMe {
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    color: #fff;
+    background-position: center;		/*Header CSS colour background, text alignment etc*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.projects .jumbotron
+{
+	background-image: url(../img/testbg.jpg);
+		margin-bottom:0px;
+		color: white;
+
+}
+
+.projects .col-md-6 {
+		background-image: url(../img/testbg.jpg);
+}
+
+.techInterests .jumbotron {
+	background-image: url(../img/makerbg2.jpg);
+	position: relative;
+    width: 100%;
+    min-height: auto;
+    text-align: center;
+    background-position: center;		/*Header CSS colour background, text alignment etc*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	color: white;
+	padding-top: 175px;
+	margin-bottom:0px;
+}
+
+.techInterests {
+	color: white;
+}
+
+.well {
+	background-image: URL(../img/header.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.ContactPage .jumbotron {
+		background-image: url(../img/bg.jpg);
+		margin-bottom:0px;
+		color: white;
+		text-align: center;
+
+}
+
+.ContactPage .col-md-12 {
+	background-image: url(../img/bg.jpg);
+	padding-top: 70px;
+	padding-bottom: 0px;
+
+}
+
+.Project .well {
+	padding-top: 0px;
+}
+.Project {
+	
+	background-color: black;
+	background-image: url(../img/bg.jpg);
+
+}
+
+.modal .modal-content {
+	color: white;
+	background-color: gray;
+	font-size: 20px;
+}
+
+.modal-backdrop {
+	background-color: #EED2EE;
+}
+
+.carousel {
+  height: 275px;
+  width: 475px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+
+.carousel-caption { /*align caption*/
+  z-index: 10;
+}
+
+.carousel .item {
+  height: 275px;
+}
+.carousel-inner > .item > img {
+  
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 275px;
+}
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 0px;
+	margin-right: 0px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+
+
