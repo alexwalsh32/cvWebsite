@@ -25,9 +25,11 @@
 .PageDetails .jumbotron{
 	color: black;
 	text-align: left;
+	background-color: gray;
 }
 
 .well {
+	background-color: gray;
 	color: black;
 	text-align: left
 }
