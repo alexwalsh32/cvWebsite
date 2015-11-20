@@ -43,13 +43,77 @@
 		</div>
 	</div>
 <body>
-
 <div class="PageDetails" id="PageDetails">
 		<div class="container">
-		<h2>This page contains the details of my website</h2>
+		<h2>This page contains the details of how i built my CV Website</h2>
 				<div class="jumbotron">
+				<h3><b>I designed and built this website myself WITHOUT the use of a template.</b></h3>
+				<p>My project consists of two HTML pages, index1.html which is the CV Website and all code used to build it.
+				<br>The second page is pageDetails.html which is this page, a separate pages describing how I built this website.
+				<br>The other files are the Javascript used, in the js folder, CSS (both Bootstraps own css and my own custom stylesheets named style1.css and style2.css. Fonts holds glyphicons and other icons needed, and finally the img folder contains the images used throughout my project.
+				</p>
+				</div>
 				
+					<div class="col-md-12">
+					<div class="well well-lg">
+						<h2><b>Components Used From Bootstrap: <br>I implemented each of these to create my own Website Template</b></h2>
+						<p><b>Navbar</b> - I implemented the collapsable navbar from Bootstrap and I customized it with JQuery.
+							The Navbar when collapsed or displayed on a smaller screen redraws itself as a 3-Bar Icon
+							I custom made with bar icons. I made my own dropdown option for the Projects tab using a caret icon.
+						</p>
+						<p><b>Container</b> - I wrap most of my different pages/views in unique containers, which I can then customize independently
+							without changing other containers style. This is achieved through my own custom CSS classes style1.css and style2.css.
+						</p>
+						<p><b>Jumbotron</b> - A Hero component was specified in the brief and the jumbotron feature of bootstrap allows for a sleek
+							professional looking container, which suits the style of the website. This like every other feature in my project is 
+							customized in my own stylesheets. I use jumbotrons throughout my project mainly to highlight the beginning of each section/page.
+						</p>
+						<p><b>Labels</b> - Labels are used in different sections to highligh the topic heading or sections title.
+						<br><b>Glyphicon</b> - I use glyphicons from the Bootstrap fonts folder. These add to the design and functionality of my project.
+						<br><b>Col-md-6</b> or and variation for example col-sm-12, is how you specify how to secton the page or panel using columns. The full page is considered
+							12, therefore if you need two panels beside each other just specify two col-md-6 classes.
+						</p>
+						<p><b>Button</b> - Buttons are used throughout the project, the buttons on my main header, firstly the Contact Me button
+							when clicked pops open a Modal which contains my contact information. Modals are discussed below. The second button is LinkedIn
+							and links to my LinkedIn page.
+						</p>
+						<p><b>Modals</b> - I built my website with Modals in certain sections where extra information is needed, for example the Contact Me button on my
+							header pops up a Modal, which is a dialogue box with contact information inside. When onscreen the modal places a light grey backdrop
+							in the background which i enabled in my style1.css stylesheet. This helps the user focus on the modal only.
+							I implemented modals as dialogue modals, with a heading, and a body to enter information to be displayed. The modals also have a button on the bottom right
+							to close the modal, alternatively they can click off the modal or use the other X icon on top right of the modal.
+						</p>
+						<p><b>Panel</b> - I used a basic panel for my Home Panel, this displays a simple panel with its own header, i customize these with
+							style1.css and match the colour code of the project. Panels have a header section and a body section tag to allow you insert
+							relevent data in each section.
+						</p>
+						<p><b>Table</b> - I wanted to show my work experiences in a professional manner. I found if i made a basic panel, and then inside this panel
+							I then made a table. I customized the table to be a table-hover, when the user hovers over the rows of the table, my custom CSS highlight the
+							table in my projects colour code. The table allows you to specify the headings and data using tr and td. 
+						</p>
+						<p><b>Well</b> - A well is a form of container, it allows for a neat panel display, and you specify the size, for example , sm for small or lg for large.
+							They are usually wrapped inside of col-md-6 type div classes. Another feature of the well is that you can specify a background and have it 
+							a scrollable image that moves when scrolling the page.
+						</p>
+						<p><b>Carousel</b> - To display my Projects I used a Carousel with screenshot images of my projects. The carousel class allows you to create a list
+							of indicators to specify each different slide. You set the data target here. The Carousel's caption is set here too. I then created my slides and gave them src links to the images they should display.
+							I set the first slide in each carousel to be the "active" slide, meaning it shows first always when page is loaded. Finally I implemented a button which is located in the bottom center of each image in the Carousel, linked it to separate unique modals,
+							that when clicked opens each individual modal showing the code for each screen of my projects. For example, the mainScreenGUI will open a modal
+							dialogue of the code for the mainScreenGUI. My custom style1.css stylesheet handles alignment and settings of the Carousel.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-12">
+					<div class="well well-lg">
+						<h2>Components Used From Other:</h2>
+						<p>JQuery imports GoogleApi's to implement fixed (sticky navbar)</p>
+						<p>Jquery was also used to show different modals depending on which row is clicked inside of my 3D Printing Table.
+						They are ran as scripts, when the user clicks a specific row in the table, it shows the corresponing modal to that title.
+						</p>
+					</div>
 				</div>
 		</div>
 </div>
 </body>
+</div>
+</html>
